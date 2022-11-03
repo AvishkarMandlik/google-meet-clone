@@ -5,16 +5,18 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    padding-left: 120px;
+    padding-right: 150px;
+    margin-right: 10px;
 }
 .containers-column-1{
+    padding: 10px;
     padding-top: 20px;
-    padding-right: 10px;
-  
+    margin-left: 60px; 
 }
 .containers-column-2{
+    padding: 10px;
     padding-top: 20px;
-    margin-right: 120px;
+    margin-right: 150px;
 }
 
 .container{
@@ -24,16 +26,28 @@
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: grey; 
-   /* background-image: url('rtc-img.png');
+    background-image: url('rtc-img.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; */
+    background-position: center left;
+    background-size: contain;
 }
-/* .cross-icon{
+.names-sir{
+    color: #e8f8fd;
+    padding-left: 35px;
+    padding-top: 150px;
+    font-size: 18px;
+}
+.names-stud{
+    color: #e8f8fd;
+    padding-left: 100px;
+    padding-top: 150px;
+    font-size: 20px;
+}
+.cross-icon{
     width: 30px;
     float: right;
     margin: 5px;
-} */
+}
 .containers-column-3{
     width: 350px;
     height: 620px;
